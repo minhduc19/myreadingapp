@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cbafc774-1b63-4efb-87a9-c5ca78356902": {
+      "ProjectGuid": "cbafc774-1b63-4efb-87a9-c5ca78356902",
+      "DisplayName": "JapaneseTextParser",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "68b50274-d34e-4a25-a619-587e64d6a6b7": {
+      "ProjectGuid": "68b50274-d34e-4a25-a619-587e64d6a6b7",
+      "DisplayName": "JapaneseTextParserDomain",
+      "ColorIndex": 1
+    },
+    "63600e2d-e54d-4132-8bea-0d227f23c84f": {
+      "ProjectGuid": "63600e2d-e54d-4132-8bea-0d227f23c84f",
+      "DisplayName": "JapaneseTextParserApplication",
+      "ColorIndex": 2
+    },
+    "b53df682-7757-4603-a7b0-e2364e559475": {
+      "ProjectGuid": "b53df682-7757-4603-a7b0-e2364e559475",
+      "DisplayName": "JapaneseTextParseInfrastructure",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

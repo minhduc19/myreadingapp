@@ -1,0 +1,12 @@
+C:\Users\de925289\source\repos\JapaneseTextParserDomain\bin\Debug\net6.0\JapaneseTextParserDomain.deps.json
+C:\Users\de925289\source\repos\JapaneseTextParserDomain\bin\Debug\net6.0\JapaneseTextParserDomain.dll
+C:\Users\de925289\source\repos\JapaneseTextParserDomain\bin\Debug\net6.0\ref\JapaneseTextParserDomain.dll
+C:\Users\de925289\source\repos\JapaneseTextParserDomain\bin\Debug\net6.0\JapaneseTextParserDomain.pdb
+C:\Users\de925289\source\repos\JapaneseTextParserDomain\obj\Debug\net6.0\JapaneseTextParserDomain.csproj.AssemblyReference.cache
+C:\Users\de925289\source\repos\JapaneseTextParserDomain\obj\Debug\net6.0\JapaneseTextParserDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\de925289\source\repos\JapaneseTextParserDomain\obj\Debug\net6.0\JapaneseTextParserDomain.AssemblyInfoInputs.cache
+C:\Users\de925289\source\repos\JapaneseTextParserDomain\obj\Debug\net6.0\JapaneseTextParserDomain.AssemblyInfo.cs
+C:\Users\de925289\source\repos\JapaneseTextParserDomain\obj\Debug\net6.0\JapaneseTextParserDomain.csproj.CoreCompileInputs.cache
+C:\Users\de925289\source\repos\JapaneseTextParserDomain\obj\Debug\net6.0\JapaneseTextParserDomain.dll
+C:\Users\de925289\source\repos\JapaneseTextParserDomain\obj\Debug\net6.0\ref\JapaneseTextParserDomain.dll
+C:\Users\de925289\source\repos\JapaneseTextParserDomain\obj\Debug\net6.0\JapaneseTextParserDomain.pdb

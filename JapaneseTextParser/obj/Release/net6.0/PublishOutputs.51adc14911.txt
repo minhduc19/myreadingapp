@@ -1,0 +1,8 @@
+C:\Users\de925289\source\repos\JapaneseTextParser\obj\Release\net6.0\PubTmp\Out\JapaneseTextParser.exe
+C:\Users\de925289\source\repos\JapaneseTextParser\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\de925289\source\repos\JapaneseTextParser\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\de925289\source\repos\JapaneseTextParser\obj\Release\net6.0\PubTmp\Out\JapaneseTextParser.dll
+C:\Users\de925289\source\repos\JapaneseTextParser\obj\Release\net6.0\PubTmp\Out\JapaneseTextParser.deps.json
+C:\Users\de925289\source\repos\JapaneseTextParser\obj\Release\net6.0\PubTmp\Out\JapaneseTextParser.runtimeconfig.json
+C:\Users\de925289\source\repos\JapaneseTextParser\obj\Release\net6.0\PubTmp\Out\JapaneseTextParser.pdb
+C:\Users\de925289\source\repos\JapaneseTextParser\obj\Release\net6.0\PubTmp\Out\HtmlAgilityPack.dll

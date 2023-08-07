@@ -1,0 +1,26 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+ruby {
+    font-size: 24px; /* Adjust the size of the hiragana as needed */
+}
+
+rt {
+    font-size: 14px; /* Adjust the size of the hiragana as needed */
+}

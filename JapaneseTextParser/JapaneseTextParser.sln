@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JapaneseTextParser", "JapaneseTextParser.csproj", "{CBAFC774-1B63-4EFB-87A9-C5CA78356902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JapaneseTextParserDomain", "..\JapaneseTextParserDomain\JapaneseTextParserDomain.csproj", "{68B50274-D34E-4A25-A619-587E64D6A6B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JapaneseTextParserApplication", "..\JapaneseTextParserApplication\JapaneseTextParserApplication.csproj", "{63600E2D-E54D-4132-8BEA-0D227F23C84F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JapaneseTextParseInfrastructure", "..\JapaneseTextParseInfrastructure\JapaneseTextParseInfrastructure.csproj", "{B53DF682-7757-4603-A7B0-E2364E559475}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBAFC774-1B63-4EFB-87A9-C5CA78356902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBAFC774-1B63-4EFB-87A9-C5CA78356902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBAFC774-1B63-4EFB-87A9-C5CA78356902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBAFC774-1B63-4EFB-87A9-C5CA78356902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B50274-D34E-4A25-A619-587E64D6A6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B50274-D34E-4A25-A619-587E64D6A6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B50274-D34E-4A25-A619-587E64D6A6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B50274-D34E-4A25-A619-587E64D6A6B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63600E2D-E54D-4132-8BEA-0D227F23C84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63600E2D-E54D-4132-8BEA-0D227F23C84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63600E2D-E54D-4132-8BEA-0D227F23C84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63600E2D-E54D-4132-8BEA-0D227F23C84F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53DF682-7757-4603-A7B0-E2364E559475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53DF682-7757-4603-A7B0-E2364E559475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53DF682-7757-4603-A7B0-E2364E559475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53DF682-7757-4603-A7B0-E2364E559475}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C19782A-A368-4802-A75F-0D7040A45224}
+	EndGlobalSection
+EndGlobal

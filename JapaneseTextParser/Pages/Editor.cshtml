@@ -1,0 +1,18 @@
+﻿@page
+@using JapaneseTextParserDomain.Model;
+
+@model JapaneseTextParser.Pages.EditorModel
+@{
+  <h1>Segment Japanese text</h1>
+  <form method="post">
+    <label for="longText">Enter Japanese here</label><br>
+    <textarea type="text" name="content" rows="8" cols="80"></textarea><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  @foreach (WordPair x in @Model.listOfWordPair)
+    { <ruby>@x.word</ruby>
+        <span>@x.translation.data[0].senses[0].english_definitions[0]</span>    
+    }
+}

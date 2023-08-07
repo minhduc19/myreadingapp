@@ -1,0 +1,274 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParser\\JapaneseTextParser.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParseInfrastructure\\JapaneseTextParseInfrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParseInfrastructure\\JapaneseTextParseInfrastructure.csproj",
+        "projectName": "JapaneseTextParseInfrastructure",
+        "projectPath": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParseInfrastructure\\JapaneseTextParseInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\de925289\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParseInfrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\de925289\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParserDomain\\JapaneseTextParserDomain.csproj": {
+                "projectPath": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParserDomain\\JapaneseTextParserDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.51, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.120\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParserApplication\\JapaneseTextParserApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParserApplication\\JapaneseTextParserApplication.csproj",
+        "projectName": "JapaneseTextParserApplication",
+        "projectPath": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParserApplication\\JapaneseTextParserApplication.csproj",
+        "packagesPath": "C:\\Users\\de925289\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParserApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\de925289\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParseInfrastructure\\JapaneseTextParseInfrastructure.csproj": {
+                "projectPath": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParseInfrastructure\\JapaneseTextParseInfrastructure.csproj"
+              },
+              "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParserDomain\\JapaneseTextParserDomain.csproj": {
+                "projectPath": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParserDomain\\JapaneseTextParserDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.51, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.120\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParserDomain\\JapaneseTextParserDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParserDomain\\JapaneseTextParserDomain.csproj",
+        "projectName": "JapaneseTextParserDomain",
+        "projectPath": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParserDomain\\JapaneseTextParserDomain.csproj",
+        "packagesPath": "C:\\Users\\de925289\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParserDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\de925289\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.120\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParser\\JapaneseTextParser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParser\\JapaneseTextParser.csproj",
+        "projectName": "JapaneseTextParser",
+        "projectPath": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParser\\JapaneseTextParser.csproj",
+        "packagesPath": "C:\\Users\\de925289\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParser\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\de925289\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParseInfrastructure\\JapaneseTextParseInfrastructure.csproj": {
+                "projectPath": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParseInfrastructure\\JapaneseTextParseInfrastructure.csproj"
+              },
+              "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParserApplication\\JapaneseTextParserApplication.csproj": {
+                "projectPath": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParserApplication\\JapaneseTextParserApplication.csproj"
+              },
+              "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParserDomain\\JapaneseTextParserDomain.csproj": {
+                "projectPath": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParserDomain\\JapaneseTextParserDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.51, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.120\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
