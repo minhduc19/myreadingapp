@@ -55,6 +55,14 @@
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[115.0.5790.17000, )"
             }
           },
           "imports": [

@@ -1,5 +1,7 @@
 ﻿using HtmlAgilityPack;
 using JapaneseTextParserDomain.Model;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 using System.Net;
 using System.Text.Json;
 
@@ -11,17 +13,26 @@ namespace JapaneseTextParseInfrastructure
         {
             string docPath =
               Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            string url = "https://jisho.org/search/" + inputText; // Replace this with the URL of the webpage you want to crawl
+            //string url = "https://jisho.org/search/" + inputText; // Replace this with the URL of the webpage you want to crawl
+            IWebDriver driver = new ChromeDriver();
+            // Navigate to the web page
+            driver.Navigate().GoToUrl("https://jisho.org/");
+            // Find the input element and enter text
+            IWebElement inputElement = driver.FindElement(By.Id("keyword"));
+            inputElement.SendKeys(inputText);
+            // Find the submit button and click it
+            IWebElement submitButton = driver.FindElement(By.ClassName("submit"));
+            submitButton.Click();
+            // Get the page source as a string
+            string pageSource = driver.PageSource;
 
             List<WordPair> wordPairList = new List<WordPair>();
             // Create a WebClient to download the HTML content of the webpage
-            using (WebClient client = new WebClient())
-            {
-                string htmlContent = client.DownloadString(url);
+        
 
                 // Use HtmlAgilityPack to parse the HTML content
                 HtmlDocument htmlDocument = new HtmlDocument();
-                htmlDocument.LoadHtml(htmlContent);
+                htmlDocument.LoadHtml(pageSource);
 
                 // Get all elements with class name "japanese_word__furigana"
                 //HtmlNodeCollection wordElements = htmlDocument.DocumentNode.SelectNodes("//span[contains(@class, 'japanese_word__text_wrapper')]");
@@ -56,11 +67,11 @@ namespace JapaneseTextParseInfrastructure
                     });
                     outputFile.WriteLine(jsonString);
                 }
-
-                return wordPairList;
+            // Close the browser
+            driver.Close();
+            return wordPairList;
             }
 
-        }
 
     }
 

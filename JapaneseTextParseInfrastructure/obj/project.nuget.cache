@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WLpkJvwCH5yV81ATTfnjjPXj05OZ2j6iGMRjT4ferNywqCRErQShELEZxZ9U6GhWz+ftv71Ua4J7btcFkopb9g==",
+  "dgSpecHash": "WiFdjdR8US3hYNHR/dZfatkGXke5hOwXp4OjUEW+4jpYrwtn/SCcC3426NPAZlIm+MII5jV9kfNcaiMKWc64ew==",
   "success": true,
   "projectFilePath": "C:\\Users\\de925289\\source\\repos\\ReadingAppProject\\JapaneseTextParseInfrastructure\\JapaneseTextParseInfrastructure.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,9 @@
     "C:\\Users\\de925289\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\de925289\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\de925289\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\de925289\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\de925289\\.nuget\\packages\\selenium.webdriver\\4.11.0\\selenium.webdriver.4.11.0.nupkg.sha512",
+    "C:\\Users\\de925289\\.nuget\\packages\\selenium.webdriver.chromedriver\\115.0.5790.17000\\selenium.webdriver.chromedriver.115.0.5790.17000.nupkg.sha512",
     "C:\\Users\\de925289\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
