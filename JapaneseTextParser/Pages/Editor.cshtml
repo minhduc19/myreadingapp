@@ -9,10 +9,14 @@
     <textarea type="text" name="content" rows="8" cols="80"></textarea><br>
 
     <button type="submit">Submit</button>
+    
   </form>
 
   @foreach (WordPair x in @Model.listOfWordPair)
     { <ruby>@x.word</ruby>
-        <span>@x.translation.data[0].senses[0].english_definitions[0]</span>    
+        <span>@x.translation</span>    
     }
+
+    <span>@Model.testValue</span>
+
 }

@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Http.Extensions;
 using JapaneseTextParser.Service;
+using Microsoft.AspNetCore.Http;
+using Newtonsoft.Json;
 
 namespace JapaneseTextParser.Pages
 {
@@ -15,25 +17,24 @@ namespace JapaneseTextParser.Pages
         public List<string> paragraphList { get; set; }
         [BindProperty]
         public string[] paragraphs { get; set; } = { };
-        public string a;
+        [BindProperty]
+        public string testValue { get; set; }
         [BindProperty]
         public List<WordPair> listOfWordPair { get; set; } = new List<WordPair>();
         
         public async Task OnGet()
         {
-            var sentenceSegment = new SentenceSegment();
-            listOfWordPair = await sentenceSegment.CrawMaintext(returnText.content);
+            testValue = HttpContext.Session.GetString("Test String");
+
             if (string.IsNullOrWhiteSpace(returnText.content)) {
                 paragraphList = new List<string>();
             }
             else {
                 paragraphs = returnText.content.Split(new[] { "\n" }, StringSplitOptions.RemoveEmptyEntries);
-
-                // Create a list to store the paragraphs
-                paragraphList = new List<string>(paragraphs);
+                
             }
 
-            a = UriHelper.GetDisplayUrl(Request);
+            //a = UriHelper.GetDisplayUrl(Request);
         }
         public async Task<IActionResult> OnPost()
         {
@@ -41,7 +42,11 @@ namespace JapaneseTextParser.Pages
 
             
             var formContent = Request.Form["content"];
-            return RedirectToPage("./Editor", new { content = returnText.content }) ;
+            var sentenceSegment = new SentenceSegment();
+            listOfWordPair = await sentenceSegment.CrawMaintext(formContent);
+            var jsonString = JsonConvert.SerializeObject(listOfWordPair);
+            HttpContext.Session.SetString("Test String", jsonString);
+            return RedirectToPage("./Editor") ;
         }
     }
 }
