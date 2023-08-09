@@ -19,6 +19,8 @@ namespace JapaneseTextParseInfrastructure
             chromeOptions.AddArguments("--headless");
             chromeOptions.AddArguments("--no-sandbox");
             chromeOptions.AddArguments("--disable-dev-shm-usage");
+            chromeOptions.AddArguments("--disable-gpu");
+            chromeOptions.AddArguments("--remote-debugging-port=9222");
             IWebDriver driver = new ChromeDriver(chromeOptions);
             // Navigate to the web page
             driver.Navigate().GoToUrl("https://jisho.org/");
