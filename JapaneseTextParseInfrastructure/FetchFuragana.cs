@@ -14,7 +14,10 @@ namespace JapaneseTextParseInfrastructure
             string docPath =
               Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             //string url = "https://jisho.org/search/" + inputText; // Replace this with the URL of the webpage you want to crawl
-            IWebDriver driver = new ChromeDriver();
+            //IWebDriver driver = new ChromeDriver();
+            var chromeOptions = new ChromeOptions();
+            chromeOptions.AddArguments("headless");
+            IWebDriver driver = new ChromeDriver(chromeOptions);
             // Navigate to the web page
             driver.Navigate().GoToUrl("https://jisho.org/");
             // Find the input element and enter text

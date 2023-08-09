@@ -1,0 +1,3 @@
+C:\Users\de925289\source\repos\ReadingAppProject\JapaneseTextParserDomain\bin\Debug\net6.0\publish\JapaneseTextParserDomain.dll
+C:\Users\de925289\source\repos\ReadingAppProject\JapaneseTextParserDomain\bin\Debug\net6.0\publish\JapaneseTextParserDomain.deps.json
+C:\Users\de925289\source\repos\ReadingAppProject\JapaneseTextParserDomain\bin\Debug\net6.0\publish\JapaneseTextParserDomain.pdb
