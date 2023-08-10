@@ -19,8 +19,10 @@ namespace JapaneseTextParseInfrastructure
             chromeOptions.AddArguments("--headless");
             chromeOptions.AddArguments("--no-sandbox");
             chromeOptions.AddArguments("--disable-dev-shm-usage");
-            chromeOptions.AddArguments("--disable-gpu");
-            chromeOptions.AddArguments("--remote-debugging-port=9222");
+            chromeOptions.AddArguments("--disable-features=NetworkService");
+            chromeOptions.AddArguments("--window-size=1920x1080");
+            chromeOptions.AddArguments("--disable-features=VizDisplayCompositor");
+            //chromeOptions.AddArguments("--remote-debugging-port=9222");
             IWebDriver driver = new ChromeDriver(chromeOptions);
             // Navigate to the web page
             driver.Navigate().GoToUrl("https://jisho.org/");
@@ -76,6 +78,7 @@ namespace JapaneseTextParseInfrastructure
                 }
             // Close the browser
             driver.Close();
+            driver.Quit();
             return wordPairList;
             }
 
