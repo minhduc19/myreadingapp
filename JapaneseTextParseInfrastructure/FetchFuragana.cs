@@ -16,8 +16,9 @@ namespace JapaneseTextParseInfrastructure
             //string url = "https://jisho.org/search/" + inputText; // Replace this with the URL of the webpage you want to crawl
             //IWebDriver driver = new ChromeDriver();
             var chromeOptions = new ChromeOptions();
-            chromeOptions.AddArguments("--headless");
             chromeOptions.AddArguments("--no-sandbox");
+            chromeOptions.AddArguments("--headless");
+            
             chromeOptions.AddArguments("--disable-dev-shm-usage");
             chromeOptions.AddArguments("--disable-features=NetworkService");
             chromeOptions.AddArguments("--window-size=1920x1080");
